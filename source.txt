@@ -1,0 +1,9 @@
+note app: https://www.youtube.com/watch?v=ZGhtx3z2qnI&t=1768s
+
+side bar: https://www.youtube.com/watch?v=n_fUlVNAyrE&t=454s
+
+
+ytdlp for video based application
+
+trae ide (vs code alternative)
+/www.trae.ai

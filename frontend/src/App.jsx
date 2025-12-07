@@ -13,6 +13,7 @@ const App = () => {
   return (
     <ThemeContextPRovider>
     <> 
+    <div className="h-screen bg-white text-gray-900 dark:bg-gray-900 dark:text-gray-100">
       <Routes>
         <Route path='/dashboard' element={<Dashboard/>}></Route>
         <Route path="/addnewnote" element={<AddNotes/>}></Route>
@@ -22,7 +23,7 @@ const App = () => {
         <Route path='/login' element={<Login/>}></Route>
         <Route path='/logout' element={<LogOut/>}></Route>
       </Routes>
-     
+     </div>
     </>
     </ThemeContextPRovider>
   )

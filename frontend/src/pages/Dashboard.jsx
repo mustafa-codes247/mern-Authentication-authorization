@@ -5,7 +5,7 @@ const Dashboard = () => {
   return (
     <div className="flex">
       <Sidebar/>
-      <div className="grow ml-16 md:ml-64 h-full lg:h-screen ">
+      <div className="grow ml-16 md:ml-64 h-full lg:h-screen dark:bg-gray-800 dark:text-white ">
       <Navbar/>
       </div>
       {/* <h1>these pages will appear here</h1>

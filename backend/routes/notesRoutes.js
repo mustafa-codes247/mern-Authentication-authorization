@@ -1,12 +1,12 @@
 import express from "express"
 import{addNote,getNote,getAllNotes,updateNote,deleteNote} from "../controller/notes.controller.js"
 
-const router = expxress();
+const routersNotes = expxress();
 
-router.post("/addnote",addNote)
-router.get("/getnote",getAllNotes)
-router.get("/getnote/:id",getNote)
-router.put("/updatenote/:id",updateNote)
-router.delete("/deletenote/:id",deleteNote)
+routersNotes.post("/addnote",addNote)
+routersNotes.get("/getnote",getAllNotes)
+routersNotes.get("/getnote/:id",getNote)
+routersNotes.put("/updatenote/:id",updateNote)
+routersNotes.delete("/deletenote/:id",deleteNote)
 
-export default router;
+export default routersNotes;
